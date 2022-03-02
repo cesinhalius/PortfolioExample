@@ -1,9 +1,9 @@
 import React from 'react'
-import './style'
+import './style.css'
 
 const Index = () => {
   return (
-    <div>Index</div>
+    <div>Header</div>
   )
 }
 
