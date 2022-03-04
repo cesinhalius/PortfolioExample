@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import ME from '../../assets/perfil1.png'
 import CTA from './CTA';
-import SocilMedia from './SocialMedia';
+import SocialMedia from './SocialMedia';
 
 const Index = () => {
   return (
@@ -12,8 +12,8 @@ const Index = () => {
         <h1>Thais Oliveira</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA/>
-        <SocilMedia/>
-        
+        <SocialMedia/>
+
         <div className="me">
           <img src={ME} alt="me" />
           </div>
