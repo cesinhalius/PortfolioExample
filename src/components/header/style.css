@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 1rem;
     overflow: hidden;
 }
 
@@ -49,4 +49,18 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/*=========================Media Queries=================================*/
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down{
+        display: none;
+    }
+    
 }
