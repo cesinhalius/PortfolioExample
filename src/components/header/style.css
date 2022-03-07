@@ -1,7 +1,7 @@
 header{
     height: 100vh;
     padding-top: 1rem;
-    overflow: hidden;
+    
 }
 
 .header__container{
@@ -17,6 +17,11 @@ header{
     gap: 1.2rem;
     justify-content: center;
 }
+/*===========================botoes========================*/
+
+.btn{
+    margin: 10px;
+}
 
 /*======================Social Midias===================*/
 
@@ -27,7 +32,7 @@ header{
     gap: .8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: -3rem;
 }
 
 .header__socials::after{
