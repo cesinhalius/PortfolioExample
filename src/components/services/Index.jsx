@@ -3,7 +3,9 @@ import './style.css'
 
 const Index = () => {
   return (
-    <div>Index</div>
+    <section id='service'>
+      Services
+      </section>
   )
 }
 

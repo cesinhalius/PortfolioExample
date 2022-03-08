@@ -5,6 +5,7 @@ import { BiMessageSquareDetail } from 'react-icons/bi'
 import { FiUser } from 'react-icons/fi'
 import { ImBook } from 'react-icons/im'
 import { MdOutlineDesignServices } from 'react-icons/md'
+
 const Index = () => {
   return (
     <nav>
